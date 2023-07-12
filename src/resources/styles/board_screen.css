@@ -1,0 +1,221 @@
+/*ID  Selector applied the one oject with this id.*/
+
+/**Screen styles */
+#Screen1{
+    /**-fx-background-color: linear-gradient(#330044, #550099);**/
+    -fx-background-color: #ffffff;
+
+}
+
+
+.boardSquare {
+    -fx-alignment: center;
+}
+.boardSquare:hover {
+    -fx-background-color: #ecf2f8;
+}
+.boardSquare:pressed {
+    -fx-background-color: #c7ccd2;
+}
+.boardSquareEmptyPreview {
+    -fx-background-color: #ff5f5f;
+}
+.boardSquareEmptyPreview:hover {
+    -fx-background-color: #ec5858;
+}
+.boardSquarePiecePreview {
+    -fx-background-color: #fcdfb1;
+}
+.boardSquarePiecePreview:hover {
+    -fx-background-color: #e8cea4;
+}
+
+.playerLabel {
+    -fx-font-size: 30px;
+    -fx-text-alignment: center;
+}
+.playerName {
+    -fx-font-size: 20px;
+    -fx-text-alignment: center;
+}
+.playerPane {
+    -fx-alignment: top-center;
+}
+
+.screen2{
+    -fx-background-color: linear-gradient(#003344, #5ff099);
+    -fx-min-width: 400px;
+    -fx-min-height:100px;
+    -fx-max-width: 400px;
+    -fx-max-height: 400px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 200px;
+    -fx-padding: 20px;
+}
+
+.screen3{
+    -fx-background-color: linear-gradient(#003344, #5ff099);
+    -fx-min-width: 400px;
+    -fx-min-height: 30px;
+    -fx-max-width: 400px;
+    -fx-max-height: 50px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+}
+
+
+/**Label styles */
+.fieldTitle{
+    -fx-font-size: 16px;
+    -fx-font-family: arial, helvetica, sans-serif;
+    -fx-text-fill: #440077;
+}
+
+.screenTitle{
+    -fx-font-size: 30px;
+    -fx-font-family: arial, helvetica, sans-serif;
+    -fx-text-fill: #440077;
+}
+
+
+
+/**Text field styles */
+.textField1{
+    -fx-min-width: 300px;
+    -fx-min-height: 20px;
+    -fx-max-width: 350px;
+    -fx-max-height: 30px;
+    -fx-pref-width: 325px;
+    -fx-pref-height: 25px;
+
+    -fx-background-color:moccasin;
+    -fx-border-color:  #DD99FF;
+
+    -fx-font-size: 12px;
+    -fx-font-family: arial, helvetica, sans-serif;
+    -fx-text-fill: #440077
+}
+
+/**Buttton Styles */
+
+.buttonStyleA{
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+
+.buttonStyleA:armed{
+    -fx-background-color: linear-gradient(#ff5400, #0e1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+
+
+.buttonStyleB{
+    -fx-background-color: linear-gradient(#0054ff, #001dbe);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+
+.buttonStyleB:armed{
+    -fx-background-color: linear-gradient(#0054ff, #001d0e);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+.buttonStyleC{
+    -fx-background-color: linear-gradient(#54ff54, #1d7e1d);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+
+.buttonStyleC:armed{
+    -fx-background-color: linear-gradient(#54ff54, #0e1d0e);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+.buttonStyleD{
+    -fx-background-color: linear-gradient(#54ffff, #1d7e7e);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+
+.buttonStyleD:armed{
+    -fx-background-color: linear-gradient(#54ffff, #0e1d1d);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+.buttonStyleSq{
+    -fx-background-color: linear-gradient(#A455C4, #8733A7);
+    -fx-background-radius: 5;
+    -fx-background-insets: 0;
+    -fx-text-fill: black;
+}
+
+
+.buttonStyleSq:armed{
+    -fx-background-color: linear-gradient(#8414A4, #671187);
+    -fx-background-radius: 5;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-stroke-width: 2px;
+}
+
+
+.buttonSizeS{
+
+    -fx-min-width: 100px;
+    -fx-min-height: 20px;
+    -fx-max-width: 120px;
+    -fx-max-height: 30px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 25px;
+
+
+    -fx-stroke: green;
+    -fx-stroke-width: 5;
+    -fx-stroke-dash-array: 12 2 4 2;
+    -fx-stroke-dash-offset: 6;
+}
+
+.buttonSizeM{
+
+    -fx-min-width: 200px;
+    -fx-min-height: 20px;
+    -fx-max-width: 200px;
+    -fx-max-height: 50px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+}
+
+
+.buttonSizeL{
+
+    -fx-min-width: 300px;
+    -fx-min-height: 40px;
+    -fx-max-width: 300px;
+    -fx-max-height: 80px;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 60px;
+}
+
+.chessBoard {
+    -fx-border-color: #000000;
+    -fx-border-width: 0.5px;
+
+}
